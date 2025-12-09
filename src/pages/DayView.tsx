@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, Plus, Clock } from 'lucide-react';
 import Card from '../components/ui/Card';
-import Button from '../components/ui/Button';
+import { Button } from "../components/ui/Button";  // ✅ Correct
 import { useTravel } from '../context/TravelContext';
 
 export default function DayView() {
