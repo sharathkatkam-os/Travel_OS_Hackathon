@@ -6,7 +6,7 @@ interface CardProps {
   onClick?: () => void;
 }
 
-export default function Card({ children, className = '', onClick }: CardProps) {
+export function Card({ children, className = '', onClick }: CardProps) {
   return (
     <div
       onClick={onClick}
