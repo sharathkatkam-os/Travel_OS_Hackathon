@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, MapPin } from 'lucide-react';
-import Card from '../components/ui/Card';
+import { Card }from '../components/ui/Card';
 import { useTravel } from '../context/TravelContext';
 
 export default function MapView() {
