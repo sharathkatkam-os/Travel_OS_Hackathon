@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Button } from "@/components/button";
-import { Input } from "@/components/input";
+import { Button } from "../components/button";
+import { Input } from "../components/input";
 
 
 export default function AddActivity() {
