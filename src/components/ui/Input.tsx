@@ -4,7 +4,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
 }
 
-export default function Input({ label, className = '', ...props }: InputProps) {
+export function Input({ label, className = '', ...props }: InputProps) {
   return (
     <div className="w-full">
       {label && (
